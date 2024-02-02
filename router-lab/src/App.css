@@ -1,0 +1,19 @@
+.Main-Container{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 60px;
+  text-align: center;
+}
+
+.Link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.Container2{
+  display: flex;
+  gap: 30px;
+  font-size: 10px;
+}
