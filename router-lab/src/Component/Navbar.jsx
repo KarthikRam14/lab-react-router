@@ -6,9 +6,9 @@ function Navbar() {
     <div className='Main-Container'>
         <div><Link className='Link' to='/home'>Kalvium</Link></div>
         <div className='Container2'>
-            <Link to='/help'>Help</Link>
-            <Link to='/contact'>Contact</Link>
-            <Link to='/about'>About</Link>
+            {/* <Link to='/help'>Help</Link> */}
+            <Link className='Link' to='/contact'>Contact</Link>
+            <Link className='Link' to='/about'>About</Link>
         </div>
     </div>
   )
